@@ -1,8 +1,6 @@
-import Header from '../Header/Header.module.scss'
+import Header from '../CSS/Header.module.scss'
 import QuanLyBenhCanTiemChung from '../QuanLyBenhCanTiemChung';
 import { Routes, Route, Link } from 'react-router-dom';
-import QuanLyVacxin from '../QuanLyVacxin';
-
 
 export default function NavBarCSYT() {
     return (
@@ -19,7 +17,6 @@ export default function NavBarCSYT() {
                         <li>
                             <Link to="/">Quản lý</Link>
                             <ul className={Header.subnav}>
-                                <li><Link to="/quanlyvacxin">Quản lý vắc-xin</Link></li>
                                 <li><Link to="/quanlybenhcantiemchung">Quản lý bệnh cần tiêm chủng cho trẻ</Link></li>
                                 <li><Link to="/quanlybenhcantiemchung">Quản lý bệnh cần tiêm chủng cho phụ nữ mang thai</Link></li>
                             </ul>
@@ -43,7 +40,6 @@ export default function NavBarCSYT() {
                 </nav>
             </header>
             <Routes>
-                <Route path="/quanlyvacxin" element={<QuanLyVacxin />} />
                 <Route path="/quanlybenhcantiemchung" element={<QuanLyBenhCanTiemChung />} />
             </Routes>
         </div>

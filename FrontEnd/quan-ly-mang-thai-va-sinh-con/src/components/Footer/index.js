@@ -1,5 +1,5 @@
 import React from 'react'
-import Footers from './Footer.module.scss'
+import Footers from '../CSS/Footer.module.scss'
 import LogoBYT from '/Project/FrontEnd/quan-ly-mang-thai-va-sinh-con/src/img/BoYTe.png'
 import LogoBaby from '/Project/FrontEnd/quan-ly-mang-thai-va-sinh-con/src/img/baby.png';
 export default function Footer() {

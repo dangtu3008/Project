@@ -1,4 +1,4 @@
-import Header from '../Header/Header.module.scss'
+import Header from '../CSS/Header.module.scss'
 import { Routes, Route, Link } from 'react-router-dom';
 import QuanLyCSYT from '../QuanLyCSYT';
 import QuanLyBenhCanTiemChung from '../QuanLyBenhCanTiemChung';

@@ -14,17 +14,17 @@ import SignUp from './components/SignUp';
 export default function App() {
   const { token, setToken } = useToken();
 
-  // if (!token) {
-  //   return <Login setToken={setToken} />
-  // }
+  if (!token) {
+    return <Login setToken={setToken} />
+  }
 
   return (
     <GlobalStyles>
       <Header />
-      {/* <NavBarAdmin /> */}
-      {/* <NavBarBYT /> */}
-      {/* <NavBarCSYT /> */}
-      <NavBarUser />
+      {/* <NavBarAdmin />
+      <NavBarBYT />
+      <NavBarCSYT />
+      <NavBarUser /> */}
       <Footer />
     </GlobalStyles >
   )

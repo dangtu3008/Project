@@ -1,5 +1,5 @@
 import React from 'react'
-import login from '../Login/Login.module.css'
+import login from '../CSS/Login.module.css'
 import { FaEye } from 'react-icons/fa';
 import { FaEyeSlash } from 'react-icons/fa';
 import { Routes, Route, Link } from 'react-router-dom';
@@ -7,7 +7,7 @@ import { useState } from "react";
 import Popup from '../Popup'
 import LogoBaby from '/Project/FrontEnd/quan-ly-mang-thai-va-sinh-con/src/img/baby.png';
 import PropTypes from 'prop-types';
-import SignUp from '../SignUp';
+import SignUp from '../SignUp'
 import LoginInvalid from '../PopupLoginInvalid';
 
 async function loginUser(credentials) {

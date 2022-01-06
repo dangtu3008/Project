@@ -1,5 +1,5 @@
 import React from 'react'
-import popup from './Popup.module.css'
+import popup from '../CSS/Popup.module.css'
 import { GrClose } from 'react-icons/gr';
 export default function Popup(props) {
     return (props.trigger) ? (
